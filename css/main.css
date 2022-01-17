@@ -1,0 +1,351 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+
+}
+
+.container-fluid {
+    background-image: url("https://bsmedia.business-standard.com/media-handler.php?mediaPath=https://bsmedia.business-standard.com/_media/bs/img/article/2020-02/26/full/1582701784-2737.jpg&width=1200");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+
+
+.container-fluid .n1{
+    background-color: rgba(141, 126, 126, 0.486);
+    padding: 0 15%;  
+}
+
+.container-fluid .n2{
+    background-color: rgba(24, 17, 17, 0.336);
+    padding: 0 15%;  
+}
+
+.container-fluid .row #submenu1 li{ 
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 10px;
+
+}
+
+.container-fluid .row #submenu1 a{ 
+ text-decoration: none;
+ color: white;
+
+
+}
+
+.container-fluid .n2 .logo{
+    font-weight: bolder;
+
+}
+
+.container-fluid #nav2 .col-md-5 li
+{
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+    
+}
+
+.container-fluid #nav2 .col-md-5 ul
+{
+    
+}
+
+.container-fluid #nav2 .col-md-5 ul a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.container-fluid .n3{
+    margin: 30px 0;
+}
+.container-fluid #nav3{
+
+    
+}
+
+.container-fluid #nav3 button
+{
+    background-color: white;
+    border: none;
+    padding: 8px 15px;
+    color: orange;
+    border-radius: 2px;
+
+}
+
+.container-fluid #nav3 button:hover
+{
+    background-color: orange;;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+
+.container-fluid .f2 {
+    margin: 0%;
+}
+
+.n4 {
+    background-color: #faf8e8;
+    color: black;
+    padding: 0 13%;  
+}
+
+.container-fluid .n4 li{
+    background-color: #faf8e8;
+    list-style: none;
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-fluid .n4 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*----- Body section -------*/
+
+.container {
+    margin-top: 3%;
+    padding: 0 9%;
+}
+
+
+.container .r1 h3 span{
+    background-color: orange;
+    color: orange;
+    margin-right: 5px;
+}
+
+.container .r2 .col-sm-8{
+    background-color: cadetblue;
+    color: white;
+}
+
+.container .r2 .col-sm-4{
+    background-color: #310658;
+    padding: 55px 0;
+}
+
+.container .r2 button{
+    padding: 7px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+.container .r2 button:hover{
+    background-color: white;
+    color: orange;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+
+
+
+
+  .container .r3 {
+      margin-top: 7%;
+  }
+
+
+  .container .r3 .col-md-3 {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+    border-radius: 3px;
+    padding: 15px;
+    margin: auto;
+  }
+
+  .container .r3 .col-md-3 i{
+    color: orange;
+    font-size: 30px;
+  }
+
+  .container .r3 .col-md-3 button{
+    background-color: orange;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  .container .r3 .col-md-3 button:hover {
+    background-color: orangered;
+    color: white;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+
+
+  .container .r4 {
+    margin-top: 7%;
+    
+
+  }
+
+  .container .r4 h3 span{
+    background-color: orange;
+    color: orange;
+    margin-right: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+.container .col-md-4 progress {
+    width: 100%;
+    height: 8%;
+  }
+
+
+  .container-fluid.testimonils{
+    background: none;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 5% 15%;
+    color: white;
+    margin-top: 7%;
+}
+
+.container-fluid.testimonils h3 span{
+    background-color: orange;
+    color: orange;
+    margin-right: 5px;
+}
+
+.container-fluid.testimonils .col-sm-4 h4{
+    color: orange;
+}
+.container-fluid.testimonils .col-sm-4 {
+    text-align: center;
+}
+
+.container-fluid.testimonils .col-sm-4 img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.container-fluid.testimonils .col-sm-4 i {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+
+.container.c2 {
+
+} 
+
+.container.c2 h3 span{
+    background-color: orange;
+    color: orange;
+    margin: 15px;
+
+} 
+
+.container.c2 .col-md-2{
+    text-align: center;
+    color: orange;
+}
+
+.container.c2 .col-md-2 i {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.container.c2 .col-md-2 button {
+    background-color: transparent;
+    border: none;
+    border-top: 2px solid orange;
+    cursor: all-scroll ;
+}
+
+
+.container.c2 .col-sm-3 {
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c9/6c/08/caption.jpg?w=700&h=-1&s=1");
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    color: #9b9b9b;
+    margin: auto;
+
+}
+
+
+.container.c2 .col-sm-3 button{ 
+    padding: 20px 25px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.container.c2 .col-sm-3 button:hover {
+    background-color: orangered;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+
+.container.c2 .row.subscribe{
+    margin-top: 7%;
+  background-color: orange;
+  z-index: 5;
+
+}
+
+
+.container.c2 .row.subscribe .col-sm-7{
+    background-color: orange;
+}
+
+.container.c2 .row.subscribe .col-sm-5{
+    margin-top: 45px;
+    width: inherit;
+    height: 29px;
+}
+
+.container.c2 .row.subscribe .col-sm-5 input{
+    height: 30px;
+    margin: 0%;
+
+}
+.container.c2 .row.subscribe .col-sm-5 button{
+    margin: 0%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: #3b1063;
+    padding: 2px;
+    color: white;
+}
+
+
+.container-fluid.footer {
+    background: none;
+    background-color: #563277;
+    padding: 10% 15% 0% 15% ;
+    color: white;
+    z-index: 4;
+    margin-top: -45px;
+}
