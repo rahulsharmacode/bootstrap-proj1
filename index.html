@@ -11,14 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
-
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>Bootstrap</title>
 </head>
 <body>
 
-    <div class="container-fluid" id='nav'>
+    <!-- <div class="container-fluid" id='nav'>
         <div class="row n1" id='nav1'>
             <div class="col-sm-7">
                 <p><i class="fas fa-phone"></i> Phone: +01-123456789 | <i class="fas fa-envelope"></i> Email: temp@tempbox.com</p>
@@ -95,7 +98,23 @@
             </div>
         </div>
 
-    </div>
+        
+    </div> -->
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+        </div>
+      </nav>
 
 
 <!----- Body section ------->
@@ -178,12 +197,44 @@
         <h2>Hear what our students have to say</h2><br/>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the industry's standard dummy text ever since the  1500s.</p>
     </div>
-    <div class="col-sm-4">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsUuzrj3QpjRwpZ8RohOVmFrGCoNumxVbSJw&usqp=CAU" alt="profile-img" />
-        <h4>Christ Daniel <br> <span style="font-size: 12px;">Biology</span></h4>
-        
+    <div class="col-md-4">
 
-        <p><i class="fas fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsUuzrj3QpjRwpZ8RohOVmFrGCoNumxVbSJw&usqp=CAU" alt="profile-img" />
+                <h4>Christ Daniel <br> <span style="font-size: 12px;">Biology</span></h4>
+                <p><i class="fas fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://thumbs.dreamstime.com/b/handsome-man-black-suit-white-shirt-posing-studio-attractive-guy-fashion-hairstyle-confident-man-short-beard-125019349.jpg" alt="profile-img" />
+                <h4>Willem Fred<br> <span style="font-size: 12px;">Biology</span></h4>
+                <p><i class="fas fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="swiper-slide">                
+                  <img src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859" alt="profile-img" />
+                <h4>Ben Len<br> <span style="font-size: 12px;">Biology</span></h4>
+                <p><i class="fas fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+              <div class="swiper-slide">                
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQpI83cg_kTOioXP4OmNsm-DRNuofptV4zR6TnNCUacvPoTvJK71ITGiMKqgN5qtI2di4&usqp=CAU" alt="profile-img" />
+                <h4>Christ Daniel <br> <span style="font-size: 12px;">Biology</span></h4>
+                <p><i class="fas fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+
+
+    
+    
+
+
     </div>
 </div>
 </div>
@@ -196,23 +247,50 @@
     <div class="row">
         <div class="col-md-2">
             <i class="fas fa-trophy"></i><br/>
-                <br/><h3>37</h3><br/>
+                <br/><div class="counter" data-target="544">000</div><br/>
                 <button>AWARDS</button>
         </div>
         <div class="col-md-2">
             <i class="fas fa-graduation-cap"></i><br/>
-            <br/> <h3>438</h3><br/>
+            <br/><div class="counter" data-target="515">000</div><br/>
             <button>STUDENTS</button>
         </div>        
         <div class="col-md-2">
             <i class="fas fa-university"></i><br/>
-                <br/><h3>16</h3><br/>
+                <br/><div class="counter" data-target="155">000</div><br/>
                 <button>YEAR OF HISTORY</button>
         </div>
         <div class="col-sm-3 text-center">
             <h4>Take a tour</h4>
-            <button onclick="alert('clicked')"><i class="fas fa-play"></i></button>
+            <!-- <button onclick="alert('clicked')"><i class="fas fa-play"></i></button> -->
+        
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   play
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+        </div>
+
+        
     </div>
 
     <div class="row subscribe">
@@ -241,12 +319,51 @@
         </div>
         <div class="col-md-3">
             <p>Social</p>
+            <a href="#"><i class="fab fa-twitter mb-3"> @padhai</i></a><br/>
+            <a href="#"><i class="fab fa-facebook mb-3"> @padhai</i></a><br/>
+            <a href="#"><i class="fab fa-discord mb-3"> @padhai</i></a>
+
         </div>
         <div class="col-md-4">
             <p>Image</p>
+            <div class="imgCard">
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+<img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="imgCard" />
+
+            </div>
         </div>
     </div>
 </div>
 
+
+
+
+
+
+
+              <!-- Swiper JS -->
+              <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+              <!-- script load -->
+          
+              <script src="./script/script.js"></script>  
+
+
+
+
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
